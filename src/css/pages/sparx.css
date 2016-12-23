@@ -15,7 +15,7 @@ header {
 
 .background-sparx nav {
     /* Off red **/
-    
+
     background-color: #681B20;
     height: 90px;
     line-height: 90px;
@@ -40,9 +40,13 @@ header {
 nav .nav-wrapper i:hover,
 nav .nav-wrapper i:focus {
     /* Rust orange */
-    
+
     color: #dd9a5f;
     text-decoration: none;
+}
+
+.bio {
+  color: black;
 }
 
 .bio-image {
@@ -50,6 +54,7 @@ nav .nav-wrapper i:focus {
     max-width: 25%;
     color: black;
 }
+
 
 .card,
 .card-panel {
@@ -111,14 +116,6 @@ nav .nav-wrapper i:focus {
     background-color: #eeeff1;
 }
 
-.modal .modal-content .bio {
-    color: black;
-}
-
-.modal .modal-content .responsive-img {
-    padding-bottom: 10px;
-}
-
 .modal .modal-content .name {
     color: #681B20
 }
@@ -129,6 +126,11 @@ nav .nav-wrapper i:focus {
 
 .modal .modal-footer .modal-action {
     color: #dd9a5f
+}
+
+.Mandy_Hogan {
+    /* Get higher res image so we don't have to do this*/
+    width: 125%;
 }
 
 .lettering {
